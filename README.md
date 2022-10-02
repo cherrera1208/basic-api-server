@@ -4,32 +4,10 @@
 
 Data Modeling: The process of taking a real world or conceptual idea and encoding it into Javascript's built in data types. Models typically describe the physical characteristics (properties) and behaviors (methods) of an object in a way that lets you write code that uses your models to problem solve and create applications.
 
-## Learning Objectives
-
-### Students will be able to
-
-#### Describe and Define
-
-- The role of data models.
-- CRUD Operations.
-- The "Collection" design pattern.
-- Interfaces and Services.
-- The differences between SQL and NoSQL Databases.
-- SQL databases, tables, and queries.
-- Modeling relational data.
-
-#### Execute
-
 - Model real world data.
 - Create models with constraints, type checking, validity using `Sequelize`.
 - Create an extensible CRUD interface and an implementation for a data model.
 - Proficiency with the `psql` shell and basic SQL commands.
-
-## Today's Outline
-
-<!-- To Be Completed By Instructor -->
-
-## Notes
 
 ### Basic SQL
 
@@ -101,3 +79,6 @@ router.post('/users', async(req, res, next) => {
 module.exports = router;
 
 ```
+
+## UML
+![REST API](/img/401UML_lab03.jpg)

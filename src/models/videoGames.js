@@ -8,20 +8,13 @@ const videoGameSchema = (sequelize, DataTypes) => sequelize.define(
       allowNull: false,
     },
     rating: {
-      type: DataTypes.STRING,
-      allowNull: false,
-    },
-    price: {
       type: DataTypes.INTEGER,
       allowNull: false,
     },
     platform: {
       type: DataTypes.STRING,
       allowNull: false,
-    },
-    discount: {
-      type: DataTypes.BOOLEAN,
-      allowNull: true,
+
     }
   }
 );
